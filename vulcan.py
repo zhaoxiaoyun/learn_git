@@ -8,3 +8,4 @@ __author__ = 'ZXY' #特殊变量 标示作者。以上为标准文件模板
 #测试git 新建feature
 input = input('input your name:')
 print('Hello, %s' % input)
+input = input('what can I do for you:')
