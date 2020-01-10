@@ -1,4 +1,17 @@
-this is file for test;
-撤销修改
-git checkout -- <file> 工作区文件修改全部撤销 回到最近一次add/commit
+1st edit
+
+分支管理
+git branch 查看分支
+git branch name创建分支
+git switch name 切换分支
+git switch -c name 创建切换分支
+git switch -d name 删除分支
+git merge name 合并name分支到当前分支
+
+git log --graph --pretty=oneline --abbrev-commit 查看分支合并图
+
+分支管理策略：
+fast forward 合并后删除/丢失分支信息
+git merge --no-ff 合并时生成新的commit，从分支历史可看出分信息
+git merge --no-ff -m '' name
 
