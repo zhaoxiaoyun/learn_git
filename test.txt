@@ -15,3 +15,9 @@ fast forward 合并后删除/丢失分支信息
 git merge --no-ff 合并时生成新的commit，从分支历史可看出分信息
 git merge --no-ff -m '' name
 
+3nd edit
+git stash 当前工作隐藏起来，等恢复现场后继续工作
+git stash list 查看所有被隐藏的文件列表
+git stash pop 恢复文件同时也删除文件
+git stash apply 恢复隐藏文件 内容不删除
+git stash drop 删除文件
