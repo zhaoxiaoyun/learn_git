@@ -1,0 +1,4 @@
+this is file for test;
+撤销修改
+git checkout -- <file> 工作区文件修改全部撤销 回到最近一次add/commit
+
